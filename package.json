@@ -2,7 +2,9 @@
   "name": "myapp",
   "version": "1.0.0",
   "description": "Curso node",
-  "engines": "10.15.3",
+  "engines": {
+    "node": "10.15.3"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
